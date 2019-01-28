@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:gravity="center_vertical"
+    android:background="#89C4F4">
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="invisible" />
+    <TextView
+        android:text="Deli Resto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:typeface="serif"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="50dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameTxt"
+        android:hint="Username"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#000000"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:letterSpacing="0.1" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordTxt"
+        android:hint="Password"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#000000"
+        android:typeface="serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="20dp" />
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/loginBtn"
+        android:typeface="serif"
+        android:textStyle="normal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:text="©copyright baliscientist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:letterSpacing="0.1" />
+</LinearLayout>
